@@ -1,0 +1,91 @@
+/* Base Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+header {
+  text-align: center;
+  padding: 30px;
+  background-color: #333;
+  color: white;
+}
+
+.logo-section {
+  background: white;
+  margin: 20px auto;
+  padding: 30px;
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo-section h2 {
+  text-align: center;
+  color: #333;
+}
+
+/* ===== LOGO 1: ===== */
+.git-logo {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.git-box {
+  width: 200px;
+  height: 200px;
+  background-color: #f05030;
+  border-radius: 20px;
+  transform: rotate(45deg);
+  position: relative;
+}
+
+.git-line {
+  background-color: azure;
+  position: absolute;
+}
+
+.git-line--long {
+  width: 80%;
+  height: 15px;
+  top: 90px;
+  left: 20px;
+  transform: rotate(45deg);
+}
+
+.git-line--short {
+  width: 140px;
+  height: 15px;
+  top: 50px;
+  left: 30px;
+}
+
+.git-circle {
+  width: 40px;
+  height: 40px;
+  background-color: azure;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.git-circle:nth-child(3) { top: 40px; left: 30px; }
+.git-circle:nth-child(4) { top: 100px; left: 130px; }
+.git-circle:nth-child(5) { top: 150px; left: 130px; }
+
+/* ===== LOGO 2: ===== */
+.m-logo {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  padding: 20px;
+}
+
+.m-arch {
+  width: 100px;
+  height: 150px;
+  border: 20px solid #ffc20f;
+  border-bottom: none;
+  border-radius: 50px 50px 0 0;
+}
